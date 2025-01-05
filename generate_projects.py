@@ -29,6 +29,9 @@ for repo in repos:
     repo_description = repo["description"]
     repo_html_url = repo["html_url"]
 
+    # Construct image URL (assuming icon.png is in the root of the main branch)
+    image_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/main/icon.png"
+
     # Check if the repo has at least one release
     release_response = requests.get(f"{base_url}/repos/{repo_owner}/{repo_name}/releases/latest", headers=headers)
     
@@ -54,7 +57,7 @@ for repo in repos:
             "description": repo_description,
             "latest_release_link": latest_release_link,
             "download_link": download_link,
-            "image": "",  # Add a placeholder for image if needed
+            "image": image_url,
             "tags": tag_objects
         })
 
@@ -63,4 +66,3 @@ with open("projects.json", "w") as f:
     json.dump(output_data, f, indent=4)
 
 print("projects.json generated successfully.")
-
