@@ -1,24 +1,115 @@
 [
     {
-        "id" : 1,
-        "name" : "Fragment of The Abyss",
-        "description" : "Fragment of the abyss is a java project",
-        "latest_release_link" : "",
-        "download_link" : "",
-        "image" : "https://raw.githubusercontent.com/sevi2000/FragmentOfTheAbyss/main/icon.png",
-        "tags" : [
+        "id": 1,
+        "name": "Energy",
+        "description": "Implementation of the energy game as University project",
+        "latest_release_link": "https://github.com/sevi2000/Energy/releases/tag/1.0.2",
+        "download_link": "https://github.com/sevi2000/Energy/releases/download/1.0.2/default.jar",
+        "image": "",
+        "tags": [
             {
-                "tag_text" : "Java",
-                "tag_link" : ""
+                "tag_text": "game",
+                "tag_link": "https://github.com/topics/game"
             },
             {
-                "tag_text" : "LibGDX",
-                "tag_link" : ""
+                "tag_text": "gradle",
+                "tag_link": "https://github.com/topics/gradle"
             },
             {
-                "tag_text" : "LibGDX Jam",
-                "tag_link" : ""
+                "tag_text": "java",
+                "tag_link": "https://github.com/topics/java"
+            },
+            {
+                "tag_text": "junit5",
+                "tag_link": "https://github.com/topics/junit5"
+            },
+            {
+                "tag_text": "swing-gui",
+                "tag_link": "https://github.com/topics/swing-gui"
             }
-             ]
+        ]
+    },
+    {
+        "id": 2,
+        "name": "FragmentOfTheAbyss",
+        "description": "FragmentsOfTheAbyss is a small LibGDX game where the player embodies Hasodious the abyss closer.",
+        "latest_release_link": "https://github.com/sevi2000/FragmentOfTheAbyss/releases/tag/release-2024-12-28_17.47.48",
+        "download_link": "https://github.com/sevi2000/FragmentOfTheAbyss/releases/download/release-2024-12-28_17.47.48/core-.projectVersion.jar",
+        "image": "",
+        "tags": [
+            {
+                "tag_text": "java",
+                "tag_link": "https://github.com/topics/java"
+            },
+            {
+                "tag_text": "libgdx",
+                "tag_link": "https://github.com/topics/libgdx"
+            },
+            {
+                "tag_text": "libgdx-game",
+                "tag_link": "https://github.com/topics/libgdx-game"
+            },
+            {
+                "tag_text": "libgdxjam",
+                "tag_link": "https://github.com/topics/libgdxjam"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "LauncherJarLibgdxExample",
+        "description": "A libgdx example for LauncherJar",
+        "latest_release_link": "https://github.com/sevi2000/LauncherJarLibgdxExample/releases/tag/1.0.8",
+        "download_link": "https://github.com/sevi2000/LauncherJarLibgdxExample/releases/download/1.0.8/LauncherJarLibgdxExample.deb",
+        "image": "",
+        "tags": []
+    },
+    {
+        "id": 4,
+        "name": "releaseALibGdxGameToNativeExecutable",
+        "description": "Generates artifacts and create release for a libgdx project",
+        "latest_release_link": "https://github.com/sevi2000/releaseALibGdxGameToNativeExecutable/releases/tag/1.2.4",
+        "download_link": "",
+        "image": "",
+        "tags": [
+            {
+                "tag_text": "bash",
+                "tag_link": "https://github.com/topics/bash"
+            },
+            {
+                "tag_text": "githubactions",
+                "tag_link": "https://github.com/topics/githubactions"
+            },
+            {
+                "tag_text": "libgdx",
+                "tag_link": "https://github.com/topics/libgdx"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Sbake",
+        "description": "Simple snake game",
+        "latest_release_link": "https://github.com/sevi2000/Sbake/releases/tag/1.0.8",
+        "download_link": "https://github.com/sevi2000/Sbake/releases/download/1.0.8/Sbake.deb",
+        "image": "",
+        "tags": [
+            {
+                "tag_text": "game",
+                "tag_link": "https://github.com/topics/game"
+            },
+            {
+                "tag_text": "gradle",
+                "tag_link": "https://github.com/topics/gradle"
+            },
+            {
+                "tag_text": "java",
+                "tag_link": "https://github.com/topics/java"
+            },
+            {
+                "tag_text": "libgdx",
+                "tag_link": "https://github.com/topics/libgdx"
+            }
+        ]
     }
 ]
