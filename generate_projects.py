@@ -58,6 +58,7 @@ for repo in repos:
             "latest_release_link": latest_release_link,
             "download_link": download_link,
             "image": image_url,
+            "repo_link": repo_html_url,  # Add the direct link to the repo
             "tags": tag_objects
         })
 
