@@ -68,3 +68,4 @@ const Navbar = ({activeLink,setActiveLink}) => {
 };
 
 export default Navbar;
+// src/components/Navbar.jsx
