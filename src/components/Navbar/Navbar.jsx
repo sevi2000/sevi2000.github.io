@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaFilePdf, FaTimes } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import './navbar.css';
 import { navItems } from "../../services/navbarItems";
@@ -33,13 +33,14 @@ const Navbar = ({activeLink,setActiveLink}) => {
             <NavLink
               key={item.id}
               to={item.url}
-              className={ activeLink == item.id ? "flex items-center space-x-2 text-indigo-500" : "flex items-center space-x-2 hover:text-indigo-500" }
+              className={ activeLink == item.id ? "flex items-center space-x-2 text-indigo-500 gap-2" : "flex items-center space-x-2 hover:text-indigo-500 gap-2" }
               onClick={() => setActiveLink(item.id)}
             >
               <item.icon />
               {item.link}
             </NavLink>
           ))}
+          <a href="/resume.pdf" className="flex gap-2 ">  <FaFilePdf className="mt-1"></FaFilePdf>Resume</a>
         </div>
       </div>
 
@@ -61,6 +62,15 @@ const Navbar = ({activeLink,setActiveLink}) => {
               </div>
             </NavLink>
           ))}
+           <a href="/resume.pdf" 
+           className="block px-6 py-3 text-lg hover:text-indigo-500"
+           activeClassName="block px-6 py-3 text-lg text-indigo-500 hover:text-indigo-500"
+           >
+           <div className="flex items-center space-x-2">
+            <FaFilePdf className="mt-1"></FaFilePdf>
+            <span>Resume</span>
+            </div>
+            </a>
         </div>
       )}
     </nav>
