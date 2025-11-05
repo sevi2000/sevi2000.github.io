@@ -5,7 +5,7 @@ export default function Hero() {
         Hi, I'm <span className="text-teal-400">Sevi Dervishi</span>
       </h2>
       <p className="text-gray-400 text-lg max-w-xl">
-        A Full-Stack Software Engineer crafting modern web experiences with &{" "}
+        A Full-Stack Software Engineer crafting modern web experiences with {" "}
         <span className="text-white">React</span> &{" "}
         <span className="text-white">Spring Boot</span>.
       </p>
