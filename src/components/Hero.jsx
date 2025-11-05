@@ -10,7 +10,7 @@ export default function Hero() {
         <span className="text-white">Spring Boot</span>.
       </p>
       <a
-        href="/projects"
+        href="/#projects"
         className="mt-8 px-6 py-3 border border-teal-400 rounded-lg text-teal-400 hover:bg-teal-400 hover:text-black transition"
       >
         View My Work
