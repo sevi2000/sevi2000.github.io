@@ -70,7 +70,7 @@ const projects = [
     download_link:
       "https://github.com/sevi2000/FragmentOfTheAbyss/releases/download/release-2024-12-28_17.47.48/core-.projectVersion.jar",
     image: "./2048.gif",
-    repo_link: "https://github.com/sevi2000/FragmentOfTheAbyss",
+    repo_link: "https://github.com/FormikoLudo/2048",
     tags: [
       { tag_text: "java", tag_link: "https://github.com/topics/java" },
       { tag_text: "libgdx", tag_link: "https://github.com/topics/libgdx" },
@@ -88,7 +88,7 @@ const projects = [
     download_link:
       "https://github.com/sevi2000/FragmentOfTheAbyss/releases/download/release-2024-12-28_17.47.48/core-.projectVersion.jar",
     image: "https://raw.githubusercontent.com/sevi2000/Linux-User-Space-build/refs/heads/main/icon.png",
-    repo_link: "https://github.com/sevi2000/FragmentOfTheAbyss",
+    repo_link: "https://github.com/sevi2000/Linux-User-Space-build",
     tags: [
       { tag_text: "linux", tag_link: "https://github.com/topics/linux" },
       { tag_text: "gcc", tag_link: "https://github.com/topics/gcc" },
@@ -104,7 +104,7 @@ const projects = [
     download_link:
       "https://github.com/sevi2000/FragmentOfTheAbyss/releases/download/release-2024-12-28_17.47.48/core-.projectVersion.jar",
     image: "./game_of_life.gif",
-    repo_link: "https://github.com/sevi2000/FragmentOfTheAbyss",
+    repo_link: "https://github.com/sevi2000/ConwaysGameOfLife",
     tags: [
       { tag_text: "java", tag_link: "https://github.com/topics/java" },
       { tag_text: "libgdx", tag_link: "https://github.com/topics/libgdx" },
@@ -122,7 +122,7 @@ const projects = [
     download_link:
       "https://github.com/sevi2000/FragmentOfTheAbyss/releases/download/release-2024-12-28_17.47.48/core-.projectVersion.jar",
     image: "./connect_four.gif",
-    repo_link: "https://github.com/sevi2000/FragmentOfTheAbyss",
+    repo_link: "https://github.com/sevi2000/ConnectFour",
     tags: [
       { tag_text: "java", tag_link: "https://github.com/topics/java" },
       { tag_text: "libgdx", tag_link: "https://github.com/topics/libgdx" },
