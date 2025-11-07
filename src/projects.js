@@ -16,7 +16,7 @@ const projects = [
   {
     id: 1,
     name: "Diet Sport 91",
-    description: "Full stack sport website including several sport programs and online payments",
+    description: "Full-stack diet and exercise website including several sport programs and online payments",
     image: "./diet_sport.png",
     repo_link: "https://diet-sport-91.fr",
     tags: [
@@ -46,7 +46,7 @@ const projects = [
     id: 3,
     name: "FragmentOfTheAbyss",
     description:
-      "FragmentsOfTheAbyss is a small LibGDX game where the player embodies Hasodious the abyss closer.",
+      "FragmentsOfTheAbyss is a small LibGDX game where the player embodies Hasodious the abyss closer",
     latest_release_link:
       "https://github.com/sevi2000/FragmentOfTheAbyss/releases/tag/release-2024-12-28_17.47.48",
     download_link:
